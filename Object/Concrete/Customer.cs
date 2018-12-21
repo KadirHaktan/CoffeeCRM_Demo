@@ -14,5 +14,7 @@ namespace CoffeeCRM_Demo.Object.Concrete
         public string LastName { get; set; }
         public DateTime DateofBirth { get; set; }
         public string NationalityID { get; set; }
+        
+       //Veritabanı tablosuna temsil eden sınıf diyebiliriz.Bu temsil eden sınıf IEntity denilen temel yapıdan miras almış.
     }
 }
