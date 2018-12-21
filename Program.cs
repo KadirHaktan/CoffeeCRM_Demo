@@ -21,10 +21,10 @@ namespace CoffeeCRM_Demo
             {
                 manager.Save(new Customer
                 {
-                    DateofBirth = new DateTime(1999, 1, 14),
-                    FirstName = "Kadir Haktan",
-                    LastName = "Yücesoy",
-                    NationalityID = "53122281420"
+                    DateofBirth = //Doğum tarihi
+                    FirstName = //İsim
+                    LastName = //Soyad
+                    NationalityID = //Kimlik Numarası
                 });
             }
             
